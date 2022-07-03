@@ -217,29 +217,55 @@ public class Cours extends Calendar {
     this.nbCredit=newNbCredit;
   }
 
-
+  /**
+   * Getter ArrayList<Calendar> du getDebutTheoriques
+   * @return
+   */
   public ArrayList<Calendar> getDebutTheoriques(){
     return DebutTheoriques;
   }
 
+  /**
+   * Getter ArrayList<Calendar> du getFinTheoriques
+   * @return
+   */
   public ArrayList<Calendar> getFinTheoriques(){
     return FinTheoriques;
   }
 
+  /**
+   * Getter ArrayList<Calendar> du getDebutPratiques
+   * @return
+   */
   public ArrayList<Calendar> getDebutPratiques(){
     return DebutPratiques;
   }
 
+  /**
+   * Getter ArrayList<Calendar> du getFinPratiques
+   * @return
+   */
   public ArrayList<Calendar> getFinPratiques(){
     return FinPratiques;
   }
+
+  /**
+   * Getter ArrayList<Calendar> du getDebutExams
+   * @return
+   */
   public ArrayList<Calendar> getDebutExams(){
     return DebutExams;
   }
 
+  /**
+   * Getter ArrayList<Calendar> du getFinExams
+   * @return
+   */
   public ArrayList<Calendar> getFinExams(){
     return FinExams;
   }
+
+
 
 
 }
